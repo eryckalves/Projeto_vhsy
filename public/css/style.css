@@ -91,6 +91,24 @@ box-sizing: border-box;
   border-bottom: 2px solid #005498;
 }
 
+.FileXML
+{
+  text-align: center;
+}
+
+.FileXML h1
+{
+  font-size: 4em;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.FileXML h6
+{
+  font-size: 1em;
+  font-family: 'Gill Sans', sans-serif;
+  color: gray;
+}
+
 /* cadastro */
 
 .cadastro-time
@@ -168,3 +186,4 @@ select
   border-radius: 5px;
   outline: none;
 }
+

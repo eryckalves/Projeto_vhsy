@@ -10,7 +10,7 @@ use App\Events\FileQueueEvent;
 
 class ExportFileController extends Controller
 {
-    function export(Request $requests)
+    public function export(Request $requests)
     { 
         $search= $requests->search_data;
         $resultado = Excel::download(new ExportFile($search), 'export.csv');

@@ -23,6 +23,8 @@ Route::get('/', 'Controller@index')->name('homepage.index');
 
 Route::get('/export', 'ExportFileController@export');
 
+Route::get('/exportXML', 'exportXMLController@exportXML');
+
 Route::get('/time/create', 'TimeController@create')->name('time.create');
 Route::post('/time/store', 'TimeController@store')->name('time.store');
 
