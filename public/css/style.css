@@ -1,0 +1,170 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.icon
+{
+  background: #dadada;
+  border-radius: 50px;
+}
+
+.nav-link
+{
+  font-size: 25px;
+}
+
+/* homepage */
+
+.header .title
+{
+  font-size: 4em;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.header .sub-tittle
+{
+  font-size: 1em;
+  font-family: 'Gill Sans', sans-serif;
+  color: gray;
+}
+
+.search-line
+{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.search-line .caixaBusca
+{
+  padding-right: 10px;
+}
+
+.search-input
+{
+  width: 300px;
+  text-align: center;
+  height: 100%;
+}
+
+.tabela
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #005498;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #dbdbdb;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #005498;
+}
+
+/* cadastro */
+
+.cadastro-time
+{
+  display: flex;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .cadastro-time
+  {
+    flex-direction: column;
+  }
+}
+
+.cadastro-time .header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  border-right: 1px solid rgb(211, 211, 211);
+  background: repeating-linear-gradient(45deg, rgb(249, 249, 249) 0px, rgb(249, 249, 249) 109px,rgb(234, 234, 234) 109px, rgb(234, 234, 234) 218px,rgb(242, 242, 242) 218px, rgb(242, 242, 242) 327px);
+}
+
+.cadastro-time .header h1
+{
+  color: #9c9c9c;
+  font-weight: bold;
+}
+
+.cadastrar-time
+{
+  padding-left: 3em;
+  width: 100%;
+}
+
+.cadastrar-time .titulo
+{
+  color: #9c9c9c;
+  text-align: right;
+  min-width: 140px;
+}
+
+.cadastrar-time .inputText
+{
+  padding: 1em 1em;
+  width: 60%;
+}
+
+.cadastrar-time .caixaText
+{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 80%;
+}
+
+.cadastrar-time .caixaText:focus
+{
+  border-bottom: 1px solid blue;
+  transition: all 0.5s ease-in;
+}
+
+.cadastrar-time .app-form-button
+{
+  font-weight: bold;
+}
+
+select
+{
+  padding: 5px 35px;
+  border-radius: 5px;
+  outline: none;
+}
